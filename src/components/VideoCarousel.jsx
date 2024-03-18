@@ -114,6 +114,7 @@ const VideoCarousel = () => {
       }
     }
   }, [videoId, startPlay]);
+  // }, [videoId, startPlay, isPlaying]);
 
   useEffect(() => {
     if (loadedData.length > 3) {
